@@ -7,6 +7,7 @@
 class BoxML
 {
 public:
+    string to_latex();
     string to_html();
     string to_string();
     

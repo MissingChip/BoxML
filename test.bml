@@ -1,3 +1,8 @@
-[abc test2 test3:I have [nested:box] stuff\[escaped box\]]
-[#A comment]
-[!:A script box?]
+[ id="head":
+    [p name:Ethan Ferguson
+    ]
+    [p address:8438 Indian Hill Rd<br>Manlius, NY 13104<br/>
+        [a href="tel:(315)-559-6208": (315)-559-6208]<br/>
+        [a href="mailto:ethanmferguson@gmail.com" :ethanmferguson@gmail.com]
+    ]
+]

@@ -32,3 +32,11 @@ string BoxML::to_html()
     }
     return out;
 }
+string BoxML::to_latex()
+{
+    string out;
+    for(int i=0; i<boxv.size(); i++){
+        out += boxv[i].to_latex();
+    }
+    return out;
+}
